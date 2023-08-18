@@ -7,6 +7,7 @@ ARG GROUP_ID
 WORKDIR /var/www
 
 RUN apt-get update && apt-get install -y \
+    npm \
     git \
     zip \
     unzip \
